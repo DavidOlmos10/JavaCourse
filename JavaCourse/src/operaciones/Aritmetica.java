@@ -11,6 +11,20 @@ public class Aritmetica {
 
     int a;
     int b;
+    
+    //Se creara un constructor vacio
+    //Los constructores no regresan ningun tipo de dato
+    
+    public Aritmetica(){
+        System.out.println("Ejecutando un constructor");
+    }
+    
+    //Sobrecarga de constructores, tiene que ver con agregaar 1 o 2 contructores a nuestra clase
+     public Aritmetica(int a, int b){
+         this.a = a;
+         this.b = b;
+         System.out.println("Ejecutando constructor con argumentos");
+     }
 
     //Metodo
     public void sumar(){
